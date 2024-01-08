@@ -1,0 +1,137 @@
+.navigation {
+    background-color: #162536;
+    width: 250px;
+    min-height: 100vh;
+    padding: 14px;
+    position: fixed;
+}
+.back {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+.navButton {
+    background-color: transparent;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-align: left;
+}
+.info {
+    background-color: #364F68;
+    width: 100%;
+    height: 45px;
+    margin-top: -6px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+    .info:only-of-type {
+        background-color: #FFFFFF;
+    }
+        .info:hover:only-of-type {
+            background-color: #EAEFF3;
+        }
+    .info:hover {
+        background-color: #3E5A75;
+    }
+.tool {
+    background-color: #364F68;
+    width: 236px;
+    height: 45px;
+    margin-top: -6px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+    .tool:hover {
+        background-color: #3E5A75;
+    }
+.toolSelected {
+    background-color: #FFFFFF;
+    width: 236px;
+    height: 45px;
+    margin-top: -6px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #464646;
+}
+.menu {
+    background-color: #809AB3;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+.team {
+    background-color: #3E5A75;
+    min-width: 1020px;
+    width: 75%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 270px;
+    top: 15px;
+}
+.window {
+    min-width: 1020px;
+    width: 75%;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 270px;
+    top: 75px;
+}
+.menuButton {
+    background-color: #EAEFF3;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 6px;
+}
+.address {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.lock {
+    margin: 4px;
+    margin-right: 6px;
+    opacity: 70%;
+}
+.fixedUrl {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #464646;
+}
+.url {
+    border: none;
+    color: #464646;
+}
+    .url:focus {
+        outline: 1px solid #D3D3D3;
+        border-radius: 2px;
+    }

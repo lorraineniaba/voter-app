@@ -1,0 +1,82 @@
+.screen {
+    background-color: #D5DEE6;
+    width: 100%;
+    height: 85vh;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.header {
+    color: #667D94;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input {
+    background-color: #F1F4F7;
+    width: 325px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding-left: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+    .input:last-of-type {
+        background-color: #667D94;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .input:focus {
+        outline: none;
+    }
+.signIn {
+    background-color: #FFFFFF;
+    padding: 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.block {
+    background-color: #667D94;
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    .block:hover {
+        cursor: pointer;
+    }
+.name {
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #162536;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+.points {
+    margin: 0px;
+    margin-top: 2px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.text {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}

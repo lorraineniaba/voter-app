@@ -1,0 +1,61 @@
+.center {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    margin-bottom: 0px;
+    color: #464646;
+    font-size: 38px;
+    font-weight: 900;
+}
+.description {
+    margin-bottom: 50px;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 800;
+}
+.pedestal {
+    background-color: #F4F4F4;
+    min-width: 250px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    margin: 0px;
+    color: #464646;
+    font-size: 32px;
+    font-weight: 900;
+}
+.points {
+    margin: 0px;
+    margin-top: 2px;
+    color: #464646;
+    font-size: 18px;
+    font-weight: 900;
+}
+.vs {
+    margin-top: 185px;
+    color: #464646;
+    font-size: 42px;
+    font-weight: 900;
+}
+.vote {
+    background-color: #464646;
+    width: 125px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
