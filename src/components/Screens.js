@@ -2,7 +2,7 @@ import { firebase, firestore, auth } from '../components/configFirebase'
 import { ref, onValue, get, update } from 'firebase/database'
 import voatzStyles from '../styles/Voatz.module.css'
 import styles from '../styles/Screens.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 function submit(event) {

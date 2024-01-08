@@ -1,5 +1,5 @@
 import styles from '../styles/Simulator.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import { firebase } from '../components/configFirebase'
 import { ref, onValue, get, update } from 'firebase/database'
 import { useState, useEffect } from 'react'
